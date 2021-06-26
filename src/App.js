@@ -2,7 +2,7 @@ import './App.css';
 
 import NavBar from './components/NavBar'
 import CodeCard from './components/CodeCard'
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import SecondNav from './components/SecondNav'
 import Auth1 from "./UI/Auth/Auth1";
 import Auth2 from "./UI/Auth/Auth2";

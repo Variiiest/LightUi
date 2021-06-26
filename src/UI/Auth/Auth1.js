@@ -90,7 +90,7 @@ export default function Auth1() {
                 </div>
                 <div className="text-right mt-2">
                   <a href="/" className="text-sm font-semibold text-gray-800 hover:text-indigo-700 focus:text-indigo-700">Forgot Password?</a>
-                </div>
+                </div>yarn
                 <button type="submit" className="w-full block bg-indigo-700 hover:bg-indigo-800 text-white font-semibold rounded
               px-4 py-3 mt-6">Sign Up</button>
               </form>
