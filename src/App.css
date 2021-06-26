@@ -1,0 +1,4 @@
+.scroll-hidden::-webkit-scrollbar {
+  height: 0px;
+  background: transparent; 
+}
