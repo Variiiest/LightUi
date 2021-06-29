@@ -8,7 +8,7 @@ import Auth1 from "./UI/Auth/Auth1";
 import Auth2 from "./UI/Auth/Auth2";
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-gray-100">
     <Router>
 <NavBar/>
 <SecondNav/>

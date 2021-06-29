@@ -8,16 +8,16 @@ const CodeCard = props => {
   
   return (
 
-  <div className="text-gray-300 mx-auto w-full px-5 py-6 lg:px-16">
-      <div className="shadow-lg rounded-xl border dark:border-black">
-        <div className="bg-gradient-to-r from-pink-400 to-blue-600 rounded dark:bg-white dark:bg-opacity-10">
+  <div className="text-gray-800 mx-auto w-full px-5 py-6 lg:px-16">
+      <div className="">
+        <div className="">
      
-          <div className="flex w-full">
+          <div className="flex w-full mb-2 space-x-2">
             <button className={
-              "py-2 px-6 focus:outline-none font-bold" +
+              "py-1 px-6 focus:outline-none bg-white rounded-lg" +
               (openTab === 1
-                ? "text-gray-300 bg-white bg-opacity-10"
-                : "bg-white bg-opacity-5")
+                ? "bg-gray-100 rounded-lg shadow border-blue-100"
+                : "")
             }
               onClick={e => {
                 e.preventDefault();
@@ -28,8 +28,8 @@ const CodeCard = props => {
             <button className={
               "py-2 px-6 focus:outline-none font-bold" +
               (openTab === 2
-                ? "text-gray-700 bg-white bg-opacity-10"
-                : "bg-white bg-opacity-5")
+                ? "bg-gray-100 border-2 rounded-lg shadow-lg"
+                : "bg-white border-2 rounded-lg")
             }
               onClick={e => {
                 e.preventDefault();
@@ -42,7 +42,8 @@ const CodeCard = props => {
               <CopyToClipboard text={props.code} onCopy={() =>alert("Copied")}>
           <button className="px-2 py-2 focus:outline-none">  
            <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" 
-           style={{fill: 'rgba(255,255,0, 1)', transform: '', msFilter: ''}}><path d="M20,2H10C8.897,2,8,2.897,8,4v4H4c-1.103,0-2,0.897-2,2v10c0,1.103,0.897,2,2,2h10c1.103,0,2-0.897,2-2v-4h4 c1.103,0,2-0.897,2-2V4C22,2.897,21.103,2,20,2z M4,20V10h10l0.002,10H4z M20,14h-4v-4c0-1.103-0.897-2-2-2h-4V4h10V14z" /></svg></button>
+           style={{fill: 'rgba(255,155,1, 1)', transform: '', msFilter: ''}}>
+             <path d="M20,2H10C8.897,2,8,2.897,8,4v4H4c-1.103,0-2,0.897-2,2v10c0,1.103,0.897,2,2,2h10c1.103,0,2-0.897,2-2v-4h4 c1.103,0,2-0.897,2-2V4C22,2.897,21.103,2,20,2z M4,20V10h10l0.002,10H4z M20,14h-4v-4c0-1.103-0.897-2-2-2h-4V4h10V14z" /></svg></button>
         </CopyToClipboard>
 
           </div>
