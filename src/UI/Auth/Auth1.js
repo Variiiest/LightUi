@@ -9,7 +9,7 @@ export default function Auth1() {
   
   return (
     <div>
-      <section className="flex flex-col md:flex-row items-center py-12 bg-gradient-to-r from-gray-50 to-gray-100">
+      <section className="flex flex-col md:flex-row items-center py-12">
         <div className="w-full md:w-1/2">
           <div className="z-10 m-12 text-left">
             <h1 className="mb-2 text-3xl text-gray-800 sm:text-5xl title-font">

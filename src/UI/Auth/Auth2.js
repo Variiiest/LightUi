@@ -4,7 +4,7 @@ export class Auth2 extends Component {
     render() {
         return (
             <div>
-                <div className="flex flex-col sm:h-screen text-gray-800 bg-gray-100">
+                <div className="flex flex-col sm:h-screen text-gray-800">
         <div
           className="grid place-items-center mx-2 my-20 sm:my-auto ">
           <div

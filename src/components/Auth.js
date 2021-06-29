@@ -9,7 +9,7 @@ export class Auth extends Component {
 
   render() {
     return (
-      <div className="font-opensans bg-gradient-to-b from gray-200 to-white">
+      <div className="">
 
 
       <CodeCard code={data.code}/>
