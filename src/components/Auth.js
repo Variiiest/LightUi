@@ -12,7 +12,7 @@ export class Auth extends Component {
       <div className="">
 
 
-      <CodeCard code={data.code}/>
+      <CodeCard/>
 
   
       </div>
